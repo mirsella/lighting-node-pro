@@ -113,6 +113,7 @@ const run = async () => {
             return process.exit(1);
         }
 
+        // console.log(controller.devices)
         animations[options.animation](controller.devices, options['params'])
     }
 
